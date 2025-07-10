@@ -49,7 +49,8 @@ function Number_Guess() {
     }
     function playagain() {
         generateRandom();
-        setmessage("");
+        setmessage("C'mon Lets Start");
+        settry(0)
         reference.current.value = "";
     }
     return (
